@@ -1,0 +1,37 @@
+
+.Heading{
+font-size: 45px;
+font-family:Poppins;
+background-color: #ffa500;
+text-align: center;
+border-top-style: solid;
+border-bottom-style: solid ;
+   position: sticky;
+  top: 0;
+  width: 100%;
+}
+.grid{
+display: grid;
+grid-template-columns: auto auto auto ;
+border: 2px #ffa500  solid;
+}
+.images{
+   margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+border: 5px;
+
+}
+.images:hover {
+  border: 2px solid #777;
+}.c{
+position: relative;
+right: 0px;
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
